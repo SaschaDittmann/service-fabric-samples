@@ -1,0 +1,62 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.22823.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{A07B5EB6-E848-4116-A8D0-A826331D98C6}") = "StatelessCalculatorActorApplication", "StatelessCalculatorActorApplication\StatelessCalculatorActorApplication.sfproj", "{DAD5E6A1-192C-44C8-AAD5-7E95D6423996}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StatelessCalculatorActor", "StatelessCalculatorActor\StatelessCalculatorActor.csproj", "{0B1AC3DD-9138-449E-BA84-255E34712429}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StatelessCalculatorActor.Interfaces", "StatelessCalculatorActor.Interfaces\StatelessCalculatorActor.Interfaces.csproj", "{7877A93E-6A7F-4CB8-94CC-73B97E6A2509}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Calculator", "Calculator\Calculator.csproj", "{16F9C730-72A6-4B69-9000-C41E2275DC4B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StatelessCalculatorActor.Client", "StatelessCalculatorActor.Client\StatelessCalculatorActor.Client.csproj", "{9379FACD-4C9B-42EB-873E-5E9853FB21FB}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Debug|x64 = Debug|x64
+		Release|Any CPU = Release|Any CPU
+		Release|x64 = Release|x64
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{DAD5E6A1-192C-44C8-AAD5-7E95D6423996}.Debug|Any CPU.ActiveCfg = Debug|x64
+		{DAD5E6A1-192C-44C8-AAD5-7E95D6423996}.Debug|x64.ActiveCfg = Debug|x64
+		{DAD5E6A1-192C-44C8-AAD5-7E95D6423996}.Debug|x64.Build.0 = Debug|x64
+		{DAD5E6A1-192C-44C8-AAD5-7E95D6423996}.Debug|x64.Deploy.0 = Debug|x64
+		{DAD5E6A1-192C-44C8-AAD5-7E95D6423996}.Release|Any CPU.ActiveCfg = Release|x64
+		{DAD5E6A1-192C-44C8-AAD5-7E95D6423996}.Release|x64.ActiveCfg = Release|x64
+		{DAD5E6A1-192C-44C8-AAD5-7E95D6423996}.Release|x64.Build.0 = Release|x64
+		{DAD5E6A1-192C-44C8-AAD5-7E95D6423996}.Release|x64.Deploy.0 = Release|x64
+		{0B1AC3DD-9138-449E-BA84-255E34712429}.Debug|Any CPU.ActiveCfg = Debug|x64
+		{0B1AC3DD-9138-449E-BA84-255E34712429}.Debug|x64.ActiveCfg = Debug|x64
+		{0B1AC3DD-9138-449E-BA84-255E34712429}.Debug|x64.Build.0 = Debug|x64
+		{0B1AC3DD-9138-449E-BA84-255E34712429}.Release|Any CPU.ActiveCfg = Release|x64
+		{0B1AC3DD-9138-449E-BA84-255E34712429}.Release|x64.ActiveCfg = Release|x64
+		{0B1AC3DD-9138-449E-BA84-255E34712429}.Release|x64.Build.0 = Release|x64
+		{7877A93E-6A7F-4CB8-94CC-73B97E6A2509}.Debug|Any CPU.ActiveCfg = Debug|x64
+		{7877A93E-6A7F-4CB8-94CC-73B97E6A2509}.Debug|x64.ActiveCfg = Debug|x64
+		{7877A93E-6A7F-4CB8-94CC-73B97E6A2509}.Debug|x64.Build.0 = Debug|x64
+		{7877A93E-6A7F-4CB8-94CC-73B97E6A2509}.Release|Any CPU.ActiveCfg = Release|x64
+		{7877A93E-6A7F-4CB8-94CC-73B97E6A2509}.Release|x64.ActiveCfg = Release|x64
+		{7877A93E-6A7F-4CB8-94CC-73B97E6A2509}.Release|x64.Build.0 = Release|x64
+		{16F9C730-72A6-4B69-9000-C41E2275DC4B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{16F9C730-72A6-4B69-9000-C41E2275DC4B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{16F9C730-72A6-4B69-9000-C41E2275DC4B}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{16F9C730-72A6-4B69-9000-C41E2275DC4B}.Debug|x64.Build.0 = Debug|Any CPU
+		{16F9C730-72A6-4B69-9000-C41E2275DC4B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{16F9C730-72A6-4B69-9000-C41E2275DC4B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{16F9C730-72A6-4B69-9000-C41E2275DC4B}.Release|x64.ActiveCfg = Release|Any CPU
+		{16F9C730-72A6-4B69-9000-C41E2275DC4B}.Release|x64.Build.0 = Release|Any CPU
+		{9379FACD-4C9B-42EB-873E-5E9853FB21FB}.Debug|Any CPU.ActiveCfg = Debug|x64
+		{9379FACD-4C9B-42EB-873E-5E9853FB21FB}.Debug|x64.ActiveCfg = Debug|x64
+		{9379FACD-4C9B-42EB-873E-5E9853FB21FB}.Debug|x64.Build.0 = Debug|x64
+		{9379FACD-4C9B-42EB-873E-5E9853FB21FB}.Release|Any CPU.ActiveCfg = Release|x64
+		{9379FACD-4C9B-42EB-873E-5E9853FB21FB}.Release|x64.ActiveCfg = Release|x64
+		{9379FACD-4C9B-42EB-873E-5E9853FB21FB}.Release|x64.Build.0 = Release|x64
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
